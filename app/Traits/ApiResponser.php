@@ -6,8 +6,6 @@ use Illuminate\Http\Response;
 
 trait ApiResponser
 {
-    public static $ANOTHER_QUESTION = "Can you ask me different questions?";
-
     /**
      * Build a success response
      * @param  string|array $data
