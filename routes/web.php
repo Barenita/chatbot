@@ -11,8 +11,5 @@
 |
 */
 
-$router->get('/charbot/ask', 'MessageController@getMatchingMessages');
-$router->get('/messages', 'MessageController@index');
-$router->get('/history', 'HistoryController@index');
+$router->get('/chatbot/ask', 'MessageController@getMatchingMessages');
 $router->get('/history/{user_id}', 'HistoryController@getHistoryByUser');
-$router->post('/history', 'HistoryController@store');
